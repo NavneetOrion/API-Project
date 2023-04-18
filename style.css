@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  background-color: #c1bebe;
+  text-align: center;
+}
+.tile {
+  display: inline-block;
+  background-color: #ffffff;
+  margin-left: 100px;
+}
+.box {
+  background-color: #ffffff;
+  margin-top: 10px;
+  align-items: center;
+}
+.tile button {
+  padding: 20px;
+  font-size: medium;
+  margin-left: 20px;
+}
+
+#form {
+  margin-top: 40px;
+  margin-left: 300px;
+}
+#submit-id {
+  display: block;
+  margin-top: 10px;
+}
+
+#div-id {
+  margin: auto;
+  border: 2px solid #000000;
+  padding: auto;
+  height: 40vh;
+  width: 40vw;
+}
+#cancel-id {
+  display: block;
+  background-color: #ff0000;
+  border: none;
+  padding: 20px;
+  margin-left: 580px;
+}
